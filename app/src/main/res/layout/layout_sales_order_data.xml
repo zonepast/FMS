@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sales_order_slide_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingStart="10dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Itemname"
+            android:maxLines="2"
+            android:gravity="start|center_vertical"
+            android:layout_gravity="start|center_vertical"
+            android:ellipsize="end"
+            android:id="@+id/txt_sales_order_item_name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qty"
+            android:gravity="start|center_vertical"
+            android:layout_gravity="start|center_vertical"
+            android:id="@+id/txt_sales_order_qty"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            android:gravity="start|center_vertical"
+            android:layout_gravity="start|center_vertical"
+            android:id="@+id/txt_sales_order_rate"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:gravity="start|center_vertical"
+            android:layout_gravity="start|center_vertical"
+            android:id="@+id/txt_sales_order_amount"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete_black"
+        android:layout_gravity="start|center"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:id="@+id/btn_sales_order_delete"
+        />
+
+</LinearLayout>

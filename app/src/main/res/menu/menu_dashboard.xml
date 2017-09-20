@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/menu_calender"
+        android:icon="@drawable/ic_calender_white"
+        android:orderInCategory="100"
+        android:title="Calender"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:orderInCategory="200"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

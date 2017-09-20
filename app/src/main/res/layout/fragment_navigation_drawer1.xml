@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_marginTop="20dp"
+    tools:context="com.prudent.fms.ui.navigationbar.NavigationDrawer1Fragment">
+
+    <TextView
+        android:id="@+id/back_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:ellipsize="end"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:text="Back"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_arrow_back"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#939393" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_navigation_drawer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

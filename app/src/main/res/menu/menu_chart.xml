@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_line_chart"
+        android:orderInCategory="100"
+        android:checked="true"
+        android:title="Line Chart"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_bar_chart"
+        android:orderInCategory="200"
+        android:title="Bar Chart"
+        app:showAsAction="never" />
+    <item
+        android:visible="false"
+        android:id="@+id/action_scatter_chart"
+        android:orderInCategory="400"
+        android:title="Scatter Chart"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_radar_chart"
+        android:orderInCategory="400"
+        android:title="Radar Chart"
+        app:showAsAction="never" />
+</menu>

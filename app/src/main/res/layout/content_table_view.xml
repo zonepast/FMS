@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.prudent.fms.ui.tableview.TableViewActivity"
+    tools:showIn="@layout/activity_table_view">
+
+    <de.codecrafters.tableview.TableView xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tableView_report_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:tableView_headerColor="@color/colorPrimary"
+        custom:tableView_headerElevation="10" />
+
+</android.support.constraint.ConstraintLayout>

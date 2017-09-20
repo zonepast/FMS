@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+    android:text="Item Name"
+    android:id="@+id/txt_nav_item"
+    android:ellipsize="end"
+    android:foreground="?attr/selectableItemBackground"
+    android:maxLines="1"
+    android:textColor="#939393"
+    android:layout_gravity="start|center_vertical"
+    android:gravity="start|center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

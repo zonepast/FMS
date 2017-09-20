@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FMS</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_dashboard"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_table_view">TableViewActivity</string>
+    <string name="title_activity_calender">Calender</string>
+
+    <string name="err_server_error">An error occurred while processing your request. Please try again later.</string>
+    <string name="ok">OK</string>
+    <string name="text_enter_comments">Enter your comments.</string>
+    <string name="yes">Yes</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="msg_enter_your_comments">Reason should not be empty.</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_save_exit">Save and exit</string>
+    <string name="action_exit">Exit</string>
+    <string name="msg_creating_msg">You are creating a message. Choose an option below.</string>
+    <string name="msg_logout_confirmation">Logout now? Are you sure?</string>
+    <string name="no">No</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

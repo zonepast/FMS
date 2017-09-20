@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="recyclerView_dashboard_1">8dp</dimen>
+    <dimen name="recyclerView_dashboard_2">10dp</dimen>
+</resources>
